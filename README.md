@@ -9,8 +9,8 @@ ICanDoExternalTransfer
 Serwis oferuje wykonanie przelewu zewnętrznego.
 Oferuje dwie funkcjonalności i jeden typ (DataContract) <i>Transfer</i>.
 
-//Wykonanie transferu. Jako parametry podajemy Guid klienta, który wysyła oraz do którego przelew ma być wykonanie oraz kwotę przelewu.
-1) bool TransferMoney(Guid clientID, Guid externalClientID, double amount);
+Wykonanie transferu. Jako parametry podajemy Guid klienta, który wysyła oraz do którego przelew ma być wykonanie oraz kwotę przelewu.
+- bool TransferMoney(Guid clientID, Guid externalClientID, double amount);
 
-//Pobranie historii przelewów dla klienta
-2) Transfer[] GetPreviousTransfers();
+Pobranie historii przelewów dla klienta
+- Transfer[] GetPreviousTransfers();

@@ -35,8 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Contracts">
-      <HintPath>..\..\..\..\..\Downloads\Contracts-master\Contracts\Contracts\bin\Release\Contracts.dll</HintPath>
+    <Reference Include="Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\GitHub\Contracts\Contracts\Contracts\bin\Release\Contracts.dll</HintPath>
     </Reference>
     <Reference Include="log4net">
       <HintPath>external libs\log4net.dll</HintPath>

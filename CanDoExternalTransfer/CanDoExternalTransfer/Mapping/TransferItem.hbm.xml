@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="CanDoExternalTransfer"
+                   namespace="CanDoExternalTransfer.Domain">
+  <class name="TransferItem">
+    <id name="ID">
+      <generator class="guid" />
+    </id>
+    <property name="clientID" />
+    <property name="clientAccountNumber" />
+    <property name="recieverAccountNumber" />
+    <property name="amount" />
+    <property name="wasSuccessful" />
+    <property name="description" />
+    <property name="date" />
+  </class>
+</hibernate-mapping>
